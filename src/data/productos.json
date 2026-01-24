@@ -3,108 +3,144 @@
     "id": 1,
     "nombre": "Remera con Corazón",
     "precio": "$20.000",
-    "imagen": "/assets/h-1.jpg"
+    "imagen": "/assets/h-1.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 2,
     "nombre": "Remera Life is unexpected",
     "precio": "$20.000",
-    "imagen": "/assets/h-2.jpg"
+    "imagen": "/assets/h-2.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 3,
     "nombre": "Remera OG",
     "precio": "$20.000",
-    "imagen": "/assets/h-3.jpg"
+    "imagen": "/assets/h-3.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 4,
     "nombre": "Remera Jordan",
     "precio": "$20.000",
-    "imagen": "/assets/h-4.jpg"
+    "imagen": "/assets/h-4.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 5,
     "nombre": "Musculosa Los Angeles California",
     "precio": "$22.000",
-    "imagen": "/assets/h-5.jpg"
+    "imagen": "/assets/h-5.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 6,
     "nombre": "Jean Oscuro",
     "precio": "$40.000",
-    "imagen": "/assets/h-6.jpg"
+    "imagen": "/assets/h-6.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 7,
     "nombre": "Jean Claro",
     "precio": "$40.000",
-    "imagen": "/assets/h-7.jpg"
+    "imagen": "/assets/h-7.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 8,
     "nombre": "Bermudas Simples",
     "precio": "$18.000",
-    "imagen": "/assets/h-8.jpg"
+    "imagen": "/assets/h-8.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 9,
     "nombre": "Pantalon Cargo ",
     "precio": "$25.700",
-    "imagen": "/assets/h-9.jpg"
+    "imagen": "/assets/h-9.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 10,
     "nombre": "Bermuda Heaven",
     "precio": "$18.000",
-    "imagen": "/assets/h-10.jpg"
+    "imagen": "/assets/h-10.jpg",
+    "categoria": "",
+    "genero": "hombre"
   },
   {
     "id": 17,
     "nombre": "Pantalon Tiras Mujer",
     "precio": "$40.000",
-    "imagen": "/assets/m-8.jpg"
+    "imagen": "/assets/m-8.jpg",
+    "categoria": "",
+    "genero": "mujer"
   },
   {
     "id": 11,
     "nombre": "Remera Mujer",
     "precio": "$9.500",
-    "imagen": "/assets/m-1.jpg"
+    "imagen": "/assets/m-1.jpg",
+    "categoria": "",
+    "genero": "mujer"
   },
   {
     "id": 12,
     "nombre": "Remera sin mangas Mujer",
     "precio": "$8.700",
-    "imagen": "/assets/m-2.jpg"
+    "imagen": "/assets/m-2.jpg",
+    "categoria": "",
+    "genero": "mujer"
   },
   {
     "id": 13,
     "nombre": "Remera de Lana Mujer",
     "precio": "$22.000",
-    "imagen": "/assets/m-4.jpg"
+    "imagen": "/assets/m-4.jpg",
+    "categoria": "",
+    "genero": "mujer"
   },
   {
     "id": 14,
     "nombre": "Remera Yankees Mujer",
     "precio": "$13.000",
-    "imagen": "/assets/m-5.jpg"
+    "imagen": "/assets/m-5.jpg",
+    "categoria": "",
+    "genero": "mujer"
   },
   {
     "id": 15,
     "nombre": "Short Selva Mujer",
     "precio": "$20.000",
-    "imagen": "/assets/m-6.jpg"
+    "imagen": "/assets/m-6.jpg",
+    "categoria": "",
+    "genero": "mujer"
   },
   {
     "id": 16,
     "nombre": "Pantalon Rayado Mujer",
     "precio": "$17.000",
-    "imagen": "/assets/m-7.jpg"
+    "imagen": "/assets/m-7.jpg",
+    "categoria": "",
+    "genero": "mujer"
   },
   {
     "id": 18,
     "nombre": "Short Floreado Mujer",
     "precio": "$8.000",
-    "imagen": "/assets/m-11.jpg"
+    "imagen": "/assets/m-11.jpg",
+    "categoria": "",
+    "genero": "mujer"
   }
 ]
