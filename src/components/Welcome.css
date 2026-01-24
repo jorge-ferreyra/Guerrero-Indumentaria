@@ -1,0 +1,45 @@
+.background {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  padding: 50px 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  background-image: url('/assets/fondo-tuneado.jpg');
+  background-size: 100%;
+  background-repeat: round;
+}
+
+.center{
+  width: 80%;
+  padding: 60px;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.titulo {
+  width: fit-content;
+  height: 100px;
+  padding: 50px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(83, 83, 83, 0.2);
+}
+
+.titulo h1 {
+  color: white;
+  font-size: 50px;
+  text-decoration: underline;
+}

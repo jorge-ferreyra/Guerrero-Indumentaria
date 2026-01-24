@@ -1,0 +1,15 @@
+---
+import './CardProduct.css';
+const { nombre, precio, imagen} = Astro.props;
+---
+
+<div class="card">
+  <div class="descripcion">
+    <img class="imagen-ropa" src={imagen} alt="-" />
+      <div class="descripcion-texto">
+        <h1>{nombre}</h1>
+        <h2>{precio}</h2>
+      </div>
+      
+  </div>
+</div>
