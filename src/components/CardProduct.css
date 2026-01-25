@@ -59,3 +59,24 @@
 @media (max-width: 840px) {
 
 }
+
+@media (max-width: 400px) {
+  .card {
+    max-width: 100%;
+    max-height: 480px;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .descripcion {
+    gap: 10px;
+  }
+
+  .descripcion-texto {
+    font-size: 17px;
+  }
+
+  .imagen-ropa {
+    max-width: 275px;
+  }
+}
