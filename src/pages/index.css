@@ -1,0 +1,13 @@
+.logo-section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  width: fit-content;
+  height: fit-content;
+}

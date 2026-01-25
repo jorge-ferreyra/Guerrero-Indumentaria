@@ -3,7 +3,7 @@
   height: fit-content;
   position: relative;
   padding: 50px 50px;
-  background-color: rgb(44, 44, 44);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -19,7 +19,7 @@
   width: 90%;
   padding: 60px;
   height: fit-content;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,6 @@
 .titulo h1 {
   color: white;
   font-size: 50px;
-  text-decoration: underline;
 }
 
 @media (max-width: 1020px) {
