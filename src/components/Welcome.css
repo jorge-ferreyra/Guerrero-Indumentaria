@@ -3,18 +3,20 @@
   height: fit-content;
   position: relative;
   padding: 50px 50px;
-  background-color: black;
+  background-color: rgb(44, 44, 44);
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  /*
   background-image: url('/assets/fondo-tuneado.jpg');
   background-size: 100%;
   background-repeat: round;
+  */
 }
 
 .center{
-  width: 80%;
+  width: 90%;
   padding: 60px;
   height: fit-content;
   background-color: rgba(0, 0, 0, 0.8);
@@ -23,7 +25,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 60px;
 }
 
 .titulo {
@@ -42,4 +44,32 @@
   color: white;
   font-size: 50px;
   text-decoration: underline;
+}
+
+@media (max-width: 1020px) {
+  .center {
+    width: 100%;
+  }
+  .titulo {
+    height: 50px;
+    padding: 30px;
+  }
+  .titulo h1{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 840px) {
+  .center {
+    width: 100%;
+    padding: 30px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .center{
+    padding: 20px;
+    gap: 20px;
+  }
 }

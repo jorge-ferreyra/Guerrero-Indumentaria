@@ -1,5 +1,5 @@
 .card {
-  min-width: 600px;
+  max-width: 600px;
   height: 900px;
   padding: 40px;
   display: flex;
@@ -34,4 +34,28 @@
 .imagen-ropa {
   max-width: 500px;
   border-radius: 12px;
+}
+
+@media (max-width: 1020px) {
+  .card {
+    max-width: 400px;
+    height: 550px;
+    padding: 30px;
+  }
+
+  .descripcion {
+    gap: 25px;
+  }
+
+  .descripcion-texto {
+    font-size: 20px;
+  }
+
+  .imagen-ropa {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 840px) {
+
 }
