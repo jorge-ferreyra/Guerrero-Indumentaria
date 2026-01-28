@@ -1,11 +1,21 @@
 ---
 import './CardProduct.css';
 const { nombre, precio, imagen, categoria, genero} = Astro.props;
+
+const urlOriginal = 'https://guerrero-indumentaria.netlify.app'
+const mensajeProducto = encodeURIComponent(`${urlOriginal}\n\n\Hola, me gustaría consultar sobre el producto: ${nombre} (${precio})`);
+
 ---
 
 <div class="card">
+  <a class="clickable" 
+    href={`https://wa.me/5491124050627?text=${mensajeProducto}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`Consultar por ${nombre} en WhatsApp`}>
+  </a>
   <div class="descripcion">
-    <img class="imagen-ropa" src={imagen} alt="-" />
+    <img class="imagen-ropa" src={imagen} alt={nombre} />
       <div class="descripcion-texto">
         <h1>{nombre}</h1>
         <h2>{precio}</h2>
