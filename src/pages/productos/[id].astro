@@ -1,0 +1,21 @@
+---
+import './id.css'
+import productos from '../../data/productos.json';
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths() {
+  return productos.map((producto) => ({
+    params: { id: producto.id.toString() },
+    props: { producto }
+  }))
+}
+
+const { producto } = Astro.props;
+---
+
+<Layout title={producto.nombre}>
+  <div>
+    <h1>{producto.nombre}</h1>
+    <a href="/">Volver al catálogo</a>
+  </div>
+</Layout>
