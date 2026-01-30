@@ -1,5 +1,7 @@
 ---
 
+import './Layout.css'
+
 interface Props {
 	title?: string;
 }
@@ -30,6 +32,8 @@ const { title =  "Guerrero Indumentaria ⚔️" } = Astro.props;
 
 	</head>
 	<body>
-		<slot />
+		<div class="background">
+			<slot />
+		</div>
 	</body>
 </html>

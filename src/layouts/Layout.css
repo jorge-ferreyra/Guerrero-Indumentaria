@@ -1,0 +1,17 @@
+.background {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  padding: 50px 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .background {
+    padding: 10px;
+  }
+}

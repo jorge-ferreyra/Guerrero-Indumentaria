@@ -5,20 +5,18 @@ import productos from "../data/productos.json";
 
 ---
 
-<div class="background">
-	<div class="center">
-		<div class="titulo">
-			<h1>Catálogo</h1>
-		</div>
-		{
-			productos.map((item) => (
-				<CardProduct 
-					id={item.id}
-					nombre={item.nombre}
-					precio={item.precio}
-					imagen={item.imagen}
-				/>
-			))
-		}
+<div class="center">
+	<div class="titulo">
+		<h1>Catálogo</h1>
 	</div>
+	{
+		productos.map((item) => (
+			<CardProduct 
+				id={item.id}
+				nombre={item.nombre}
+				precio={item.precio}
+				imagen={item.imagen}
+			/>
+		))
+	}
 </div>
