@@ -2,21 +2,24 @@
 import './Welcome.css';
 import CardProduct from "./CardProduct.astro";
 import productos from "../data/productos.json";
+import Layout from '../layouts/Layout.astro';
 
 ---
 
-<div class="center">
-	<div class="titulo">
-		<h1>Catálogo</h1>
+<Layout>
+	<div class="center">
+		<div class="titulo">
+			<h1>Catálogo</h1>
+		</div>
+		{
+			productos.map((item) => (
+				<CardProduct 
+					id={item.id}
+					nombre={item.nombre}
+					precio={item.precio}
+					imagen={item.imagen}
+				/>
+			))
+		}
 	</div>
-	{
-		productos.map((item) => (
-			<CardProduct 
-				id={item.id}
-				nombre={item.nombre}
-				precio={item.precio}
-				imagen={item.imagen}
-			/>
-		))
-	}
-</div>
+</Layout>
